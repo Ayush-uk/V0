@@ -20,10 +20,10 @@ const Navbar = () => {
         {!isSignedIn ? (          // ✅ replaces <SignedOut>
           <div className="flex gap-2">
             <SignUpButton>
-              <Button variant={"outline"} size={"sm"}>Sign In</Button>
+              <Button variant={"outline"} size={"sm"}>Sign Up</Button>
             </SignUpButton>
             <SignInButton>
-              <Button size={"sm"}>Sign Up</Button>
+              <Button size={"sm"}>Sign In</Button>
             </SignInButton>
           </div>
         ) : (                     // ✅ replaces <SignedIn>
