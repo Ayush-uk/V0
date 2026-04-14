@@ -25,6 +25,6 @@ const db =
 // Prevent multiple instances in development
 if (process.env.NODE_ENV !== "production") {
   globalForPrisma.prisma = db;
-}
+};
 
 export default db;
