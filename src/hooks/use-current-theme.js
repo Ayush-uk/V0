@@ -7,6 +7,7 @@ export const useCurrentTheme = ()=>{
     if(theme === "dark" || theme==="light"){
         return theme;
     }
+    ;
 
     return systemTheme;
 }
